@@ -1,5 +1,6 @@
 import React from 'react'
 import Carrusel from '../carousel/Carrusel'
+import Footer from '../footer/Footer'
 
 function Inicio() {
   return (
@@ -20,6 +21,9 @@ function Inicio() {
                 <figcaption className='blockquote-footer'>WIKIPEDIA</figcaption>
             </figure>
         </div>
+
+        <Footer />
+
     </div>
   )
 }
