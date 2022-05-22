@@ -2,7 +2,9 @@ import React from 'react'
 
 function Inicio() {
   return (
-    <div>Esta es la pagina de inicio</div>
+    <div>
+        <h1>Esta es la pagina de inicio</h1>
+    </div>
   )
 }
 
