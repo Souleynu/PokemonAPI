@@ -1,10 +1,16 @@
 import './App.css';
-import { BrouserRouter as Router, Switch, Route } from 'react-router-dom' //Importamos componentes de router-dom
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom' //Importamos componentes de router-dom
+import Navbar from './componentes/navegacion/Navbar'; //Importamos los componentes de las paginas
+import Inicio from './componentes/paginas/Inicio';
+import Pokemons from './componentes/paginas/Pokemons';
+import Items from './componentes/paginas/Items';
 
 function App() {
   return (
     <div className="App">
-        <h1>Navegador</h1>
+        <Router>
+          <Navbar/>
+        </Router>
     </div>
   );
 }
