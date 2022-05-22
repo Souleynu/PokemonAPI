@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+//Iconos y link rel sacado de https://icons.getbootstrap.com/
 
 function Footer() {
   return (
