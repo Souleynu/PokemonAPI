@@ -1,4 +1,5 @@
 import './App.css';
+import { BrouserRouter as Router, Switch, Route } from 'react-router-dom' //Importamos componentes de router-dom
 
 function App() {
   return (
